@@ -2,3 +2,4 @@ C Language Functions
 
 1. Sorting arrays with ascending order - qsort()
 2. Converting two variables without using third one - x = x + y; y = x - y; x = x - y;
+3. Diving number with remainder and quotend div_t output = div(nominator,denominator);
