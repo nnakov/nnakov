@@ -9,3 +9,18 @@ size_t size(the size of each element in the array, int(*comparator)(const void*,
 5. Finding directory path or other process variables: getenv("for example: PATH"); This function works with char * Pointer or direct by printf();
 6. Dynamic Memory Allocation Function:  array(name of array) = (int*) calloc(n(number of variables to be stored(example array limit),sizeof(int));
                          calloc(elements, sizeof(data_type)); elements = number of elements to be stored, sizeof(size of each individual element)
+
+7. Binary search(only for sorted arrays!): 
+
+void* bsearch( const void* key, const void* ptr, std::size_t count,
+               std::size_t size, * comp );
+
+Parameters :
+key     -    element to be found
+ptr     -    pointer to the array to examine
+count    -    number of element in the array
+size    -    size of each element in the array in bytes
+comp    -    comparison function which returns ?a negative integer value if 
+             the first argument is less than the second,
+             a positive integer value if the first argument is greater than the second
+             and zero if the arguments are equal.
