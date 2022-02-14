@@ -16,6 +16,10 @@ void* bsearch( const void* key, const void* ptr, std::size_t count,
                std::size_t size, * comp );
 void *bsearch(const void *key, const void *base, size_t nitems, size_t size, int (*compar)(const void *, const void *))
 
+int compar(const void * a, const void * b) {
+   return ( *(int*)a - *(int*)b ); <- here the values can be any (x,y,a,b,c etc)
+}
+
 Parameters :
 key     -    element to be found
 ptr     -    pointer to the array to examine
