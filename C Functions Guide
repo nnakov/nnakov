@@ -29,3 +29,5 @@ comp    -    comparison function which returns ?a negative integer value if
              the first argument is less than the second,
              a positive integer value if the first argument is greater than the second
              and zero if the arguments are equal.
+
+8. Showing text at exit of a program: atexit(your created function); function. No matter which position. It executes at the end of the program. 
