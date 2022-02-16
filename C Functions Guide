@@ -31,3 +31,5 @@ comp    -    comparison function which returns ?a negative integer value if
              and zero if the arguments are equal.
 
 8. Showing text at exit of a program: atexit(your created function); function. No matter which position. It executes at the end of the program. 
+9. Aborting program at command - abort(); function terminates the program at function, without processing further instructions. It also does not save opened by the program files
+    or cleaning cache.
