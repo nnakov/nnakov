@@ -34,3 +34,6 @@ comp    -    comparison function which returns ?a negative integer value if
 9. Aborting program at command - abort(); function terminates the program at function, without processing further instructions. It also does not save opened by the program files
     or cleaning cache.
 10. Sizeof() shows the size of a element in the computer memory.
+11. Input Line of text in string, extract data from the string. 
+      fgets("name of array", sizeof("array"), stdin(standard or not standard input);
+	    sscanf("name of array", ""extract format"(%d, %d, %d)", to which variables(&num1, &num2, &num3));
