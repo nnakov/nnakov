@@ -38,3 +38,4 @@ comp    -    comparison function which returns ?a negative integer value if
       fgets("name of array", sizeof("array"), stdin(standard or not standard input);
 	    sscanf("name of array", ""extract format"(%d, %d, %d)", to which variables(&num1, &num2, &num3));
 12. Casting in C(changing variable type(int -> double) only for print or somthing else); int a,b;    printf("%d", float(a) - b;
+13. Enter variables separated by comma - scanf("%d,%d", &a,&b;
