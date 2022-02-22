@@ -39,3 +39,15 @@ comp    -    comparison function which returns ?a negative integer value if
 	    sscanf("name of array", ""extract format"(%d, %d, %d)", to which variables(&num1, &num2, &num3));
 12. Casting in C(changing variable type(int -> double) only for print or somthing else); int a,b;    printf("%d", float(a) - b;
 13. Enter variables separated by comma - scanf("%d,%d", &a,&b;
+14. Check input value(for character or digit or special character): 
+	char ch;
+	printf("Please input a character: ");
+        scanf("%c", &ch);
+    
+
+        if((ch>='a' && ch<='z') || (ch>='A' && ch<='Z')) {
+        printf("This is an alphabet.\n");
+        } 
+        else if(ch>='0' && ch<='9') {
+        printf("This is a digit.\n");
+        }
