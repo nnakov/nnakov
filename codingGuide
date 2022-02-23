@@ -2,3 +2,20 @@ When you write a program, which repeats output texts (customer, number, sum) do 
 - Take input
 - Do the neccesary operations with variables. DON'T show otput at every variable change
 - Show output
+
+Example:
+INPUT
+printf("Input the unit consumed by the customer : ");
+   scanf("%d",&conu);
+
+VARIABLE OPERATIONS
+   if (conu <200 )
+	chg = 1.20;
+  else	if (conu>=200 && conu<400)
+		chg = 1.50;
+    
+OUTPUT
+  printf("\nElectricity Bill\n");
+   printf("Customer IDNO                       :%d\n",custid);
+   printf("Customer Name                       :%s\n",connm);
+   printf("unit Consumed                       :%d\n",conu);
