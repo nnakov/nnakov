@@ -51,3 +51,5 @@ comp    -    comparison function which returns ?a negative integer value if
         else if(ch>='0' && ch<='9') {
         printf("This is a digit.\n");
         }
+
+ 15. Converting LOWERCASE to UPPERCASE: function: toupper(variable); converts lower to upper case char. Use ctype.h library
