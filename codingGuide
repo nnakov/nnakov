@@ -1,4 +1,4 @@
-When you write a program, which repeats output texts (customer, number, sum) do the following:
+1. When you write a program, which repeats output texts (customer, number, sum) do the following:
 - Take input
 - Do the neccesary operations with variables. DON'T show otput at every variable change
 - Show output
@@ -19,3 +19,14 @@ OUTPUT
    printf("Customer IDNO                       :%d\n",custid);
    printf("Customer Name                       :%s\n",connm);
    printf("unit Consumed                       :%d\n",conu);
+
+2. When you have multiple case1,case2 with same output:
+   then just write them together and write only 1 output for all of them
+   		
+		case 4:
+		case 6:
+		case 9:
+		case 11:
+	        printf("Month have 30 days. \n");
+	        break;
+   
