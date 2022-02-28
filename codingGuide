@@ -31,3 +31,10 @@ OUTPUT
 	        break;
    
 3. In printf you can combine several printfs into one. Example = (The sum of 10 is : %d \n The average is %f)
+
+4. Print odd numbers using only "i" variable direct in loop cycle =  
+for(i=1;i<=n;i++)
+   {
+     printf("%d ",2*i-1);
+     sum+=2*i-1;
+   }
