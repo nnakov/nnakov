@@ -1,0 +1,45 @@
+#include <stdio.h>
+
+
+int main() {
+    
+    int n,lowerEnd,upperEnd,space,star=1;
+    
+    printf("Please input number of rows: ");
+    scanf("%d", &n);
+    
+    
+    lowerEnd = n/2; //1
+    upperEnd = n - lowerEnd; //2
+    
+    space = upperEnd;
+    
+    for(int i=0; i<n; i++) {
+        
+        for(int y=0; y<space; y++) {
+            printf(" ");
+        }
+
+        if(i<lowerEnd) {
+            space = space - 1;
+        } else {
+            space = space + 1;
+        }
+        
+            
+        for(int y=0; y<star; y++) {
+            printf("*");
+        }
+        if(i<lowerEnd) { //upperEnd = 2;
+            star = star + 2;
+        } else {
+            star = star - 2;
+        }
+        
+        printf("\n");
+        
+    }
+    
+
+    return 0;
+}
