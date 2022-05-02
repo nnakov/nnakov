@@ -53,3 +53,4 @@ comp    -    comparison function which returns ?a negative integer value if
         }
 
  15. Converting LOWERCASE to UPPERCASE: function: toupper(variable); converts lower to upper case char. Use ctype.h library
+ 16. Space between prited numbers: printf("% 4d", n) makes more space between prited numbers.
