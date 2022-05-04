@@ -41,3 +41,5 @@ for(i=1;i<=n;i++)
 
 5. You can define the first part of "For cycle" with the parameter accepting value from another variable. Example:
  for(n=mn;n<=mx;n++)    n=6;
+ 
+6. In While loop you can use only one variable with number. For example n=6; while(n) -> The loop will execute until n reaches 0 (n=0);
