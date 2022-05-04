@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+
+int main() {
+    
+    int num,place=1,bin=0,rem=0;
+    
+    printf("Input decimal number: ");
+    scanf("%d", &num);
+    printf("The binary of %d is: ", num);
+    
+    
+    while(num) {
+        
+        rem = num%2; //0
+        num = num/2; //3
+        bin = bin + (rem*place);
+        place = place*10;
+        
+    }
+    
+    printf("%d", bin);
+    return 0;
+}
