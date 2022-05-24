@@ -43,3 +43,10 @@ for(i=1;i<=n;i++)
  for(n=mn;n<=mx;n++)    n=6;
  
 6. In While loop you can use only one variable with number. For example n=6; while(n) -> The loop will execute until n reaches 0 (n=0);
+
+7. You can change the main number direct in for loop instead of writing it in the cycle. For example:
+NEW: for(; n>0; n/10) 
+OLD: (;n>0;)  {
+
+	n = n/10;
+}
