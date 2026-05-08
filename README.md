@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @nnakov
 - 👀 I’m interested in Software development, AI, Robotics, technology, cars
-- 🌱 I’m currently learning Java and Git
-- 💞️ I’m looking to collaborate on SW Projects
+- 🌱 I’m currently learning AI ML
+- 💞️ I’m looking for SW Engineer role
 - 📫 How to reach me just drop a message
 
 <!---
