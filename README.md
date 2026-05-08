@@ -1,8 +1,13 @@
-- 👋 Hi, I’m @nnakov
-- 👀 I’m interested in Software development, AI, Robotics, technology, cars
-- 🌱 I’m currently learning AI-enabled systems, data engineering, automation, and cloud technologies
-- 💞️ I’m looking for SW Engineer role
-- 📫 How to reach me just drop a message
+👋 Hi, I’m @nnakov
+
+Enterprise Systems Engineer with interests in AI-enabled systems, data engineering, automation, cloud technologies, and software development.
+
+💻 Technical interests:
+Python • Linux • Enterprise Platforms • Data Infrastructure • Intelligent Automation
+
+🌱 Currently expanding my expertise in AI systems, cloud-native technologies, and scalable data-driven applications.
+
+📫 Feel free to connect or reach out.
 
 <!---
 nnakov/nnakov is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
