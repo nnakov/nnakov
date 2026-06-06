@@ -3,7 +3,7 @@
 Enterprise Systems Engineer with interests in AI-enabled systems, data engineering, automation, cloud technologies, and software development.
 
 💻 Technical interests:
-Python • Linux • Enterprise Platforms • Data Infrastructure • Intelligent Automation
+Java • Python • Linux • Enterprise Platforms • Data Infrastructure • Intelligent Automation
 
 🌱 Currently expanding my expertise in AI systems, cloud-native technologies, and scalable data-driven applications.
 
