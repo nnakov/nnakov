@@ -1,6 +1,6 @@
 👋 Hi, I’m @nnakov
 
-Enterprise Systems Engineer with interests in AI-enabled systems, data engineering, automation, cloud technologies, and software development.
+Enterprise Systems Engineer with interests in AI-enabled systems, software development, cloud technologies and data engineering.
 
 💻 Technical interests:
 Java • Python • Linux • Enterprise Platforms • Data Infrastructure • Intelligent Automation
